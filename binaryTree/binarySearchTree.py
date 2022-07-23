@@ -153,21 +153,21 @@ class BinarySearchTree:
             self.traverse_in_order(node.right_node)
 
 
-if __name__ == '__main__':
-    bst = BinarySearchTree()
-    bst.insert(10)
-    bst.insert(5)
-    bst.insert(8)
-    bst.insert(12)
-    bst.insert(-5)
-    bst.remove(10)
-    bst.remove(12)
-    bst.remove(8)
-    bst.remove(-5)
-    bst.remove(5)
-
-print("-----------------------------")
-
-bst.traverse()
-# print(bst.get_min())
-# print(bst.get_max())
+# if __name__ == '__main__':
+#     bst = BinarySearchTree()
+#     bst.insert(10)
+#     bst.insert(5)
+#     bst.insert(8)
+#     bst.insert(12)
+#     bst.insert(-5)
+#     bst.remove(10)
+#     bst.remove(12)
+#     bst.remove(8)
+#     bst.remove(-5)
+#     bst.remove(5)
+#
+# print("-----------------------------")
+#
+# bst.traverse()
+# # print(bst.get_min())
+# # print(bst.get_max())
